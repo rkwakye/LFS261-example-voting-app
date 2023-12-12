@@ -16,7 +16,6 @@ pipeline {
             }
         }
         stage("test"){
-           echo 'the job is complete'
             steps{
             echo 'running unit tests on worker app'
             dir('worker'){
